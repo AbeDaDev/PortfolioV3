@@ -1,0 +1,31 @@
+
+.primary {
+    color: grey;
+    border-color: red;
+}
+
+header {
+    background-color: lightgrey;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #593737;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: rgb(24, 52, 112);
+    border-top: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
