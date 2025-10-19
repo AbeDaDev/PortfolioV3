@@ -1,28 +1,32 @@
 
 header {
     color: white;
-    border: 1px solid black;
+    border: 1px solid rgb(24, 24, 24);
     padding: 20px;
     text-align: center;
     text-decoration: none;
-    background:
     
 }
 
 
 /* -------------------------- NavBar --------------------------*/
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
 .navbar ul {
     display: flex;
-    border: 1px solid white;
-    background-color: black;
+    background: rgba(0, 0, 0, 0.7);
     justify-content: space-around;
-    align-items: right;
-    list-style: none;
     align-items: center;
+    list-style: none;
     height: 55px;
+    width: 50%;
+    border-radius: 15px;
     padding: 0px;
     margin: 0px;
-    margin-bottom: 10px;
     animation: fade-in 1.5s ease;
 }
 
@@ -35,24 +39,18 @@ header {
 
 .navbar a:hover {
     color: rgb(207, 103, 23);
+    text-decoration-thickness:unset
 }
 
 
 #identification {
-    border: 1px solid rgb(255, 255, 255);
     margin: 50px auto;
     width: 92%;
     border-radius: 10px;
     box-shadow: 10px 10px 10px;
     justify-items: center;
     animation: fade-in 1.5s ease;
-    background:
-    linear-gradient(
-        to bottom,
-        rgba(0, 55, 81, 0.5),
-        rgba(0, 94, 153, 0.877),
-        rgba(0, 37, 55, 0.5)
-    );
+    background: rgba(0, 0, 0, 0.7);
 }
 #identification:hover {
     background: black;
@@ -76,22 +74,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(52, 52, 52);
-
+    background-color: rgb(196, 196, 196);
+    background-image: url(images/header-alt.jpg);
     border: 2px solid black;
 }
 
 /* -------------------------- Projects --------------------------*/
 
 footer {
-    background:
-    linear-gradient(
-        to bottom,
-        rgba(0, 55, 81, 0.5),
-        rgba(0, 94, 153, 0.877),
-        rgba(0, 37, 55, 0.5)
-    );
-    border-top: 2px solid black;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
     padding: 10px;
     text-align: center;
     position: fixed;
