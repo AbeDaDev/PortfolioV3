@@ -3,13 +3,12 @@ function Header() {
     return (
         <div>
             <header>
-                <h1 className="primary">My Portfolio project</h1>
-                    <nav>
+                    <nav className="navbar">
                         <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#home" className="nav_link">Home</a></li>
+                            <li><a href="#about" className="nav_link">About</a></li>
+                            <li><a href="#projects" className="nav_link">Projects</a></li>
+                            <li><a href="#contact" className="nav_link">Contact</a></li>
                         </ul>
                     </nav>
             </header>
