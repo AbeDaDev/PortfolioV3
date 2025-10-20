@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <footer>
-            <p>© 2024 My Portfolio</p>
+            <p>© 2026 Project Under Construction </p>
         </footer>
     );
     

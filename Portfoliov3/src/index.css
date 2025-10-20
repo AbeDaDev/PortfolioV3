@@ -11,10 +11,7 @@ header {
 
 /* -------------------------- NavBar --------------------------*/
 
-.navbar {
-    display: flex;
-    justify-content: center;
-}
+  
 
 .navbar ul {
     display: flex;
