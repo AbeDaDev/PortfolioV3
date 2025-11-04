@@ -6,8 +6,7 @@
 
 header {
     color: white;
-    border: 1px solid rgb(243, 6, 6);
-    padding: 20px;
+    padding: auto;
     text-align: center;
 }
 
@@ -15,13 +14,18 @@ header {
 /* -------------------------- NavBar --------------------------*/
 
 .navbar ul {
+    margin: 0px;
+    padding: 0%;
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: rgb(177, 141, 98);
+    width: 100%;
 }
 
 .navbar li {
-    background-color: black;
+    background-color: bisque;
+    color: black;
+    border-color: solid 3px black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -54,10 +58,10 @@ header {
     box-shadow: 10px 10px 10px;
     justify-items: center;
     animation: fade-in 1.5s ease;
-    background: rgba(0, 0, 0, 0.7);
+    background-color: rgb(177, 141, 98);
 }
 #identification:hover {
-    background: black;
+    background-color: bisque;
     background-size: cover;
 }
 
@@ -78,14 +82,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(32, 32, 32);
+    background-color:bisque;
     border: 2px solid black;
 }
 
 /* -------------------------- Projects --------------------------*/
 
 footer {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(177, 141, 98);
     color: white;
     padding: 10px;
     text-align: center;
